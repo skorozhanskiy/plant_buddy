@@ -3,6 +3,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		gap: 37px;
 	}
 	&__item {
 		&:not(:last-child) {
@@ -11,8 +12,8 @@
 	}
 	&__link {
 		color: rgb(20, 47, 56);
-		font-size: 18px;
-		font-weight: 600;
+		font-size: 22px;
+		font-weight: 500;
 		line-height: 25px;
 		letter-spacing: 0%;
 		text-align: center;

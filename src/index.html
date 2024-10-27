@@ -5,16 +5,18 @@
   <body class="body__wrapper">
     <!-- @@include('./html/components/ui/ellipse_beige/ellipse_beige.html',{}) -->
     <div class="wrapper">
-      <div class="wrappe__content">
+      <div class="wrapper__content">
         @@include('./html/components/shared/header/header.html',{})
         <main class="main">
+          @@include('./html/components/ui/ellipse_green/ellipse_green.html',{})
           <div class="container">
-            @@include('./html/components/ui/ellipse_green/ellipse_green.html',{})
+            @@include('./html/components/shared/left-block/left-block.html',{})
+            @@include('./html/components/shared/right-block/right-block.html',{})
           </div>
         </main>
+        @@include('./html/components/shared/footer/footer.html',{})
       </div>
     </div>
-    @@include('./html/footer/footer.html',{})
     <script src="js/app.min.js"></script>
   </body>
 </html>

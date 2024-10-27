@@ -1,0 +1,13 @@
+.navigation-bar {
+	// position: absolute;
+	// top: 0;
+	// right: 0;
+	// .navigation-bar__container
+
+	&__container {
+		width: 305px;
+		height: 109px;
+		background-color: rgb(20, 46, 56);
+		border-radius: 0px 54px 0px 20px;
+	}
+}
