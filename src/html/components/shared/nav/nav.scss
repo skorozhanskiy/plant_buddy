@@ -1,0 +1,20 @@
+.nav {
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__item {
+		&:not(:last-child) {
+			margin-right: 40px;
+		}
+	}
+	&__link {
+		color: rgb(20, 47, 56);
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 25px;
+		letter-spacing: 0%;
+		text-align: center;
+	}
+}

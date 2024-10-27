@@ -1,0 +1,51 @@
+@import "fonts";
+@import "vendor/vendor";
+
+@import "../html/components/shared/header/header";
+@import "../html/footer/footer";
+
+// shared
+@import "../html/components/shared/nav/nav";
+
+//end shared
+
+// ui
+@import "../html/components/ui/ellipse_beige/ellipse_beige";
+@import "../html/components/ui/ellipse_green/ellipse_green";
+
+//end ui
+
+body {
+	font-family: OpenSans;
+}
+
+.body__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(81.62deg, rgb(237, 237, 228) -23.381%, rgb(248, 242, 235) 97.65%);
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1488px;
+	height: 948px;
+	border-radius: 54px;
+
+	background: rgb(239, 235, 227);
+}
+
+.wrappe__content {
+	position: relative;
+	width: 1440px;
+	height: 900px;
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 54px;
+
+	box-shadow: 0px 50px 50px 0px rgb(223, 217, 206);
+	background: rgba(255, 255, 255, 0.25);
+}

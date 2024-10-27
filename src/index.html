@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('./html/head.html',{ "title":"написать название сайта" })
+
+  <body class="body__wrapper">
+    <!-- @@include('./html/components/ui/ellipse_beige/ellipse_beige.html',{}) -->
+    <div class="wrapper">
+      <div class="wrappe__content">
+        @@include('./html/components/shared/header/header.html',{})
+        <main class="main">
+          <div class="container">
+            @@include('./html/components/ui/ellipse_green/ellipse_green.html',{})
+          </div>
+        </main>
+      </div>
+    </div>
+    @@include('./html/footer/footer.html',{})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
